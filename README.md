@@ -15,19 +15,19 @@ Program execution is driven via user prompts. The user may choose to enter a sin
 
 The search options from figure 1 are combined with a plant species of interest using logical AND.
 
-- Option 1 - the overarching term:<sup>3</sup> <br>
+- Option 1 - the overarching term:<sup>3</sup> <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{phytoremediation}}$
-- Option 2 - by sub-mechanism; in the soil, through absorption and removal, or containment: <br>
+- Option 2 - by sub-mechanism; in the soil, through absorption and removal, or containment: <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{rhizodegradation OR phytoextraction OR phytostabilization}}$
-- Option 3 - via environmental pollutant hierarchy: <br>
+- Option 3 - via environmental pollutant hierarchy: <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{hydrocarbon OR PAH OR petroleum OR metal OR contaminant}}$
-- Option 3a - as above, but also including PFAS: <br>
+- Option 3a - as above, but also including PFAS: <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{hydrocarbon OR PAH OR petroleum OR metal OR contaminant OR pfas}}$
-- Option 4 - by biological location, chemical cocktail, or degree of mineralization: <br>
+- Option 4 - by biological location, chemical cocktail, or degree of mineralization: <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{root exudate OR rhizosphere OR degradation}}$
-- Option 5 - PFAS and PFA substance prefixes: <br>
+- Option 5 - PFAS and PFA substance prefixes: <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{pfas OR perfluoro* OR polyfluoro*}}$
-- Option 6 - as above with title and abstract field restrictions, and also including older taxonomy for what are now often referred to colloquially as “forever chemicals”. The Medical Subject Headings term fluorocarbons is included in many foundational toxicology and environmental engineering studies. Including it here may reduce the likelihood of missing species-related findings from important earlier work. <br>
+- Option 6 - as above with title and abstract field restrictions, and also including older taxonomy for what are now often referred to colloquially as “forever chemicals”. The Medical Subject Headings term fluorocarbons is included in many foundational toxicology and environmental engineering studies. Including it here may reduce the likelihood of missing species-related findings from important earlier work. <br> &nbsp;&nbsp;
     $\color{orange}{\texttt{fluorocarbons[Mesh] OR pfas[tiab] OR perfluoro*[tiab] OR polyfluoro*[tiab]}}$
 
 Once a search choice is made, the code will create a subdirectory and populate it with a file containing an enumerated abstract listing. The file also provides for the user a timestamp (`datetime` object), an abstract count, and an elapsed time metric for the search. Subsequent code execution will overwrite and replace the search results.
